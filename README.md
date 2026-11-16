@@ -125,6 +125,10 @@ codebase):
 - `multi_agent_scenario` — large hierarchical CDC/EDC/MEC topology with
   multi-agent placement logic, optional MCP interaction logs, and helper scripts
   for plots and reports.
+- `criticality_placement` — places the `01_basicExample` apps four ways (the
+  tutorial JSON, the lowest delay, the least central node, and the
+  dependency-criticality planner in `yafs.placement_criticality`) and compares
+  request success after the two most central nodes fail.
 
 Several folders include a `README.md` with the exact layout, how to run the
 script, and expected outputs; start there when exploring a scenario.
