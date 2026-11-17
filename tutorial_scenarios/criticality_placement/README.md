@@ -48,6 +48,6 @@ least central of `k` centrality tiers that can host the app.
 Files
 -----
 
-- `main.py` builds the three runs and prints the comparison.
+- `main.py` builds the four runs and prints the comparison.
 - The planner is in `src/yafs/placement_criticality.py` and its tests are in
   `tests/test_criticality_placement.py`.
